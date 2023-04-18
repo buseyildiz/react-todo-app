@@ -1,0 +1,41 @@
+.todo-form{
+    width: 100%;
+}
+.form-control{
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.todo-input{
+    border: 1px solid rgb(79, 81, 39);
+}
+
+.submit{
+    position: absolute;
+    top: 0;
+    right: -3px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #e86946;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    padding: 1em 2em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: ease-out 0.25s;
+    
+}
+
+.submit:hover{
+    box-shadow: 0 0rem 2rem 0.4rem hsla(0, 0%, 0%, 0.26);
+    font-size: 1.1rem;
+}
+.submit:focus {
+    box-shadow: 0 0rem 2rem 0.4rem hsla(0, 0%, 0%, 0.26);
+    font-size: 1.1rem;
+    
+  }
